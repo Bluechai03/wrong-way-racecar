@@ -1,0 +1,34 @@
+.score-list {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(130, 75, 244, 0.08);
+}
+
+.score-list__name {
+  font-weight: 600;
+  margin-right: auto;
+}
+
+.score-list__record {
+  background: #261b50;
+  text-align: center;
+  padding: 0 9px;
+}
+
+.score-list__rank {
+  width: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-list__record__label,
+.score-list__rank__label {
+  font-size: 10px;
+}
+
+.score-list__record__num,
+.score-list__rank__num {
+  font-size: 20px;
+  line-height: 1.25;
+}

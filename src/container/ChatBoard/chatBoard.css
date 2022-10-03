@@ -1,0 +1,58 @@
+.chat-board {
+  flex: 1.5;
+  background: rgba(16, 12, 74, 0.2);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.chat-board__box {
+  flex: 1;
+  background: #180c3c;
+  border-radius: 16px;
+  border: 2px solid #514d67;
+  color: #fff;
+  padding: 16px;
+}
+
+.chat-board__joined {
+  color: #ff3eec;
+}
+
+.chat-board__countdown {
+  background: linear-gradient(180deg, #febe00 -7.69%, #ff6e01 81.99%, #ff0f00 127.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.chat-board__fields {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.chat-board__input {
+  background: #180c3c;
+  border-radius: 4px;
+  height: 40px;
+  color: #fff;
+  flex: 1;
+}
+
+.chat-board__btn {
+  border: 2px solid #000000;
+  border-radius: 4px;
+  padding: 8px 37px;
+  background: linear-gradient(180deg, #995aff -7.69%, rgba(108, 58, 252, 0.91) 127.88%);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25), 0px -2px 35px rgba(0, 0, 0, 0.45);
+}

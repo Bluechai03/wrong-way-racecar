@@ -1,0 +1,31 @@
+.player-board {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #fff;
+  background: rgba(16, 12, 74, 0.2);
+  box-shadow: inset 3px 4px 63px rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.player-board__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-board__btn {
+  all: unset;
+  background: linear-gradient(180deg, #995aff -7.69%, rgba(108, 58, 252, 0.91) 127.88%);
+  border: 2px solid #000;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px;
+  color: #fff;
+}

@@ -1,0 +1,11 @@
+.game-screen {
+  filter: drop-shadow(0px 4px 90px #542899);
+  border-radius: 20px;
+  border: 2px solid #9a78d0;
+}
+
+@media screen and (max-width: 1100px) {
+  .game-screen {
+    width: 100% !important;
+  }
+}
